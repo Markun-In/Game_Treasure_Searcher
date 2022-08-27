@@ -66,3 +66,14 @@ E:\Learn\Учёба\Личные работы\Работы в портфолио
 E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
 E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.cache
 E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb

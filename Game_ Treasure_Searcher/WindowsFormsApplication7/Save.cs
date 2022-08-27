@@ -32,7 +32,6 @@ namespace WindowsFormsApplication7
                 }
 
                 StreamWriter sw = new StreamWriter(textBox1.Text + ".txt");
-
                 sw.WriteLine(Form1.man.x);
                 sw.WriteLine(Form1.man.y);
                 for (int i = 0; i < 5; i++)
@@ -65,6 +64,11 @@ namespace WindowsFormsApplication7
                 {
                     MessageBox.Show("Введите имя сохранения!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     return;
+                } 
+                else if (!File.Exists(textBox1.Text + ".txt"))
+                {
+                    MessageBox.Show("Такого файла не существует! Попробуйте снова", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
 
                 StreamReader sr = new StreamReader(textBox1.Text + ".txt");
@@ -80,8 +84,9 @@ namespace WindowsFormsApplication7
                     Form1.wall[i].y = Convert.ToInt32(sr.ReadLine());
 
                 Form1.Minisund = Convert.ToInt32(sr.ReadLine());
-                for (int i = 0; i < Form1.Minisund; i++)
-                    Form1.sund[i] = new Form1.Sunduk(Form1.sund[i].x, Form1.sund[i].y);
+                
+                //for (int i = 0; i < Form1.Minisund; i++)
+                //    Form1.sund[i] = new Form1.Sunduk(Form1.sund[i].x, Form1.sund[i].y);
 
                 for (int i = 0; i < Form1.sund.Length-1; i++)
                     Form1.sund[i].x = Convert.ToInt32(sr.ReadLine());
@@ -108,6 +113,8 @@ namespace WindowsFormsApplication7
                 }
                 Form1.level = Convert.ToInt32(sr.ReadLine());
                 sr.Close();
+
+               
             }
             Close();
         }

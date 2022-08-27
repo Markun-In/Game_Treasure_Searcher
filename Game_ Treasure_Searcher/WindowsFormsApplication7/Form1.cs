@@ -584,7 +584,6 @@ namespace WindowsFormsApplication7
                     up();
                 if (c == 3)
                     down();
-
             }
         }
 
