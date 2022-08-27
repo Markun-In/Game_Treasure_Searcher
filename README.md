@@ -1,2 +1,2 @@
-# Game_-Treasure_Searcher
+# Game_Treasure_Hunter
 A lite game 
