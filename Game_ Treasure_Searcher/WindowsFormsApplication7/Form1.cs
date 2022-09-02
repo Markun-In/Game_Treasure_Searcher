@@ -30,6 +30,7 @@ namespace WindowsFormsApplication7
 
         public Form1()
         {
+            MaximizeBox = false; // Чтобы нельзя было разворачивать форму на весь экран
             InitializeComponent();
             label6 = new System.Windows.Forms.Label();
             this.panel2.Controls.Add(label6);

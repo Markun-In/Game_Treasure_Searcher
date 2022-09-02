@@ -51,9 +51,7 @@ namespace WindowsFormsApplication7
                     if (Form1.sund[i] != null)
                         sw.WriteLine(Form1.sund[i].y);
                     else continue;
-                for (int i = 0; i < Form1.Minisund; i++)
-                    sw.WriteLine(Form1.Minisund);
-
+        
                 sw.WriteLine(Form1.level);
                 sw.Close();
             }
@@ -82,19 +80,15 @@ namespace WindowsFormsApplication7
                     Form1.wall[i].x = Convert.ToInt32(sr.ReadLine());
                 for (int i = 1; i <= Form1.wall.Length - 1; i++)
                     Form1.wall[i].y = Convert.ToInt32(sr.ReadLine());
-
                 Form1.Minisund = Convert.ToInt32(sr.ReadLine());
                 
                 //for (int i = 0; i < Form1.Minisund; i++)
                 //    Form1.sund[i] = new Form1.Sunduk(Form1.sund[i].x, Form1.sund[i].y);
 
-                for (int i = 0; i < Form1.sund.Length-1; i++)
-                    Form1.sund[i].x = Convert.ToInt32(sr.ReadLine());
-                for (int i = 0; i < Form1.sund.Length-1; i++)
+                for (int i = 0; i < Form1.Minisund; i++)
+                    Form1.sund[i].x = Convert.ToInt32(sr.ReadLine()); // Тут на 2-м шаге исключение
+                for (int i = 0; i < Form1.Minisund; i++)
                     Form1.sund[i].y = Convert.ToInt32(sr.ReadLine());
-
-                for(int i = 0; i < Form1.Minisund; i++)
-                    Form1.Minisund = Convert.ToInt32(sr.ReadLine());
 
                 if (Form1.Minisund == 3)
                     Form1.sund[1] = null;
