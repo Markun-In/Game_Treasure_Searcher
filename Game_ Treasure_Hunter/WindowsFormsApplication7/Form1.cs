@@ -266,16 +266,16 @@ namespace WindowsFormsApplication7
                 if (x < 0)
                     x++;
                 for (int i = 0; i < wall.Length; i++)
-                    if(wall[i]!= null)
-                if (x == wall[i].x && y == wall[i].y)
-                {
-                    x++;
-                    return;
-                }
+                    if(wall[i]!= null) 
+                        if (x == wall[i].x && y == wall[i].y) 
+                        { 
+                            x++; 
+                            return;
+                        }
                 for (int i = 0; i < 5; i++)
-                    if (mon[i] != null)
-                    if (x == mon[i].x && y == mon[i].y)
-                        life--;
+                    if (mon[i] != null) 
+                        if (x == mon[i].x && y == mon[i].y) 
+                            life--;
                 if (life == 0)
                 {
                     timer1.Enabled = false;
@@ -317,12 +317,12 @@ namespace WindowsFormsApplication7
                 if (x > Form1.areasize)
                     x--;
                 for (int i = 0; i < wall.Length; i++)
-                    if (wall[i] != null)
-                if (x == wall[i].x && y == wall[i].y)
-                {
-                    x--;
-                    return;
-                }
+                    if (wall[i] != null) 
+                        if (x == wall[i].x && y == wall[i].y) 
+                        { 
+                            x--; 
+                            return;
+                        }
                 for (int i = 0; i < 5; i++)
                     if (x == mon[i].x && y == mon[i].y)
                         life--;
@@ -333,18 +333,18 @@ namespace WindowsFormsApplication7
                     MessageBox.Show("Вы проиграли!");
                 }
                 for (int i = 0; i < 4; i++)
-                    if (sund[i] != null)
-                if (x == sund[i].x && y == sund[i].y)
-                {
-                    sund[i] = null;
-                    Minisund--;
-                    if (Minisund == 0)
-                    {
-                        timer1.Enabled = false;
-                        timer4.Enabled = false;
-                        next_level();
-                    }
-                }
+                    if (sund[i] != null) 
+                        if (x == sund[i].x && y == sund[i].y) 
+                        { 
+                            sund[i] = null; 
+                            Minisund--; 
+                            if (Minisund == 0) 
+                            { 
+                                timer1.Enabled = false; 
+                                timer4.Enabled = false; 
+                                next_level();
+                            }
+                        }
                 if (home_enamble == 10 && x == 6 && y == 6)
                 {
                     life++;
@@ -367,12 +367,12 @@ namespace WindowsFormsApplication7
                 if (y > Form1.areasize)
                     y--;
                 for (int i = 0; i < wall.Length; i++)
-                    if(wall[i]!= null)
-                if (x == wall[i].x && y == wall[i].y)
-                {
-                    y--;
-                    return;
-                }
+                    if(wall[i]!= null) 
+                        if (x == wall[i].x && y == wall[i].y) 
+                        { 
+                            y--; 
+                            return;
+                        }
                 for (int i = 0; i < 5; i++)
                     if (x == mon[i].x && y == mon[i].y)
                         life--;
@@ -383,19 +383,19 @@ namespace WindowsFormsApplication7
                     MessageBox.Show("Вы проиграли!");
                 }
                 for (int i = 0; i < 4; i++)
-                    if (sund[i] != null)
-                if (x == sund[i].x && y == sund[i].y)
-                {
-                    sund[i] = null;
-                    Minisund--;
-                    if (Minisund == 0)
-                    {
-                        timer1.Enabled = false;
-                        timer4.Enabled = false;
-                        next_level();
-                    }
-                    
-                }
+                    if (sund[i] != null) 
+                        if (x == sund[i].x && y == sund[i].y) 
+                        { 
+                            sund[i] = null; 
+                            Minisund--; 
+
+                            if (Minisund == 0) 
+                            { 
+                                timer1.Enabled = false; 
+                                timer4.Enabled = false; 
+                                next_level();
+                            }
+                        }
                 if (home_enamble == 10 && x == 6 && y == 6)
                 {
                     life++;
@@ -418,16 +418,17 @@ namespace WindowsFormsApplication7
                 if (y < 0)
                     y++;
                 for (int i = 0; i < wall.Length; i++)
-                    if (wall[i] != null)
-                if (x == wall[i].x && y == wall[i].y)
-                {
-                    y++;
-                    return;
-                }
+                    if (wall[i] != null) 
+                        if (x == wall[i].x && y == wall[i].y) 
+                        { 
+                            y++; 
+                            return;
+                        }
+
                 for (int i = 0; i < 5; i++)
-                    if (mon[i] != null)
-                    if (x == mon[i].x && y == mon[i].y)
-                        life--;
+                    if (mon[i] != null) 
+                        if (x == mon[i].x && y == mon[i].y) 
+                            life--;
                 if (life == 0)
                 {
                     timer1.Enabled = false;
@@ -435,19 +436,19 @@ namespace WindowsFormsApplication7
                     MessageBox.Show("Вы проиграли!");
                 }
                 for (int i = 0; i < 4; i++)
-                   if (sund[i] != null)
-                if (x == sund[i].x && y == sund[i].y)
-                {
-                    sund[i] = null;
-                    Minisund--;
-                    if (Minisund == 0)
-                    {
-                        timer1.Enabled = false;
-                        timer4.Enabled = false;
-                        next_level();
-                    }
-                    
-                }
+                   if (sund[i] != null) 
+                       if (x == sund[i].x && y == sund[i].y) 
+                       { 
+                           sund[i] = null; 
+                           Minisund--; 
+                           if (Minisund == 0) 
+                           { 
+                               timer1.Enabled = false; 
+                               timer4.Enabled = false; 
+                               next_level();
+                           }
+                       }
+
                 if (home_enamble == 10 && x == 6 && y == 6)
                 {
                     life++;
@@ -500,7 +501,7 @@ namespace WindowsFormsApplication7
                     if (sund[i] != null)
                         if (sund[i].x == a && sund[i].y == b)
                             return true;
-                    for (int n = 0; n < wall.Length; n++)
+                for (int n = 0; n < wall.Length; n++)
                         if (wall[n] != null)
                             if (a == wall[n].x && b == wall[n].y)
                                 return true;
@@ -619,13 +620,13 @@ namespace WindowsFormsApplication7
                 if (man.x == n && man.y == h)
                     return true;
                 for (int i = 0; i < 5; i++)
-                    if(mon[i] != null)
-                if (mon[i].x == n && mon[i].y == h)
-                    return true;
-                for (int i = 0; i < wall.Length; i++)
-                if(wall[i] != null)
-                if (wall[i].x == n && wall[i].y == h)
-                    return true;
+                    if(mon[i] != null) 
+                        if (mon[i].x == n && mon[i].y == h) 
+                            return true;
+                for (int i = 0; i < wall.Length; i++) 
+                    if(wall[i] != null) 
+                        if (wall[i].x == n && wall[i].y == h) 
+                            return true;
                 return false;
             }
         }
@@ -654,8 +655,8 @@ namespace WindowsFormsApplication7
 
             bool move_ok(int n, int h)
               {
-                  for (int i = 0; i < 4; i++)
-                  if (sund[i] != null)
+                  for (int i = 0; i < 4; i++) 
+                      if (sund[i] != null)
                           if (sund[i].x == n && sund[i].y == h)
                               return true;
                   if (man.x == n && man.y == h)
@@ -664,9 +665,9 @@ namespace WindowsFormsApplication7
                       if (mon[i] != null)
                           if (mon[i].x == n && mon[i].y == h)
                               return true;
-                  for (int i = 1; i < 10; i++)
-                  if (wall[i].x == n && wall[i].y == h)
-                      return true;
+                  for (int i = 1; i < 10; i++) 
+                      if (wall[i].x == n && wall[i].y == h) 
+                          return true;
                   return false;
               }
         }
@@ -702,7 +703,7 @@ namespace WindowsFormsApplication7
             }
             if (timer1.Enabled)
             {
-                switch (e.KeyCode) // Управление персонажем
+                switch (e.KeyCode) 
                 {
                     case Keys.Left:
                         man.left();

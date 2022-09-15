@@ -114,12 +114,12 @@ namespace WindowsFormsApplication7
         {
             Close();
 
-            if(Text == "Загрузка")
-            {
-                Form1.label2.Enabled = true;
-                label5.Visible = false;
-                label1.Visible = true;
-            }
+            //if(Text == "Загрузка")
+            //{
+            //    //Form1.label2.Enabled = true;
+            //    //label5.Visible = false;
+            //    //label1.Visible = true;
+            //}
         }
     }
 }
