@@ -31,36 +31,34 @@ namespace WindowsFormsApplication7
                     return;
                 }
 
-                StreamWriter sw = new StreamWriter(textBox1.Text + ".txt");
-                sw.WriteLine(Form1.man.x);
-                sw.WriteLine(Form1.man.y);
-                for (int i = 0; i < 5; i++)
-                    sw.WriteLine(Form1.mon[i].x);
-                for (int i = 0; i < 5; i++)
-                    sw.WriteLine(Form1.mon[i].y);
-                for (int i = 0; i <= Form1.wall.Length - 1; i++)
-                    sw.WriteLine(Form1.wall[i].x);
-                for (int i = 0; i <= Form1.wall.Length - 1; i++)
-                    sw.WriteLine(Form1.wall[i].y);
-
-                sw.WriteLine(Form1.Minisund);
-
-                for (int i = 0; i <= Form1.Minisund; i++) { 
-                    if (Form1.sund[i] != null)
-                        sw.WriteLine(Form1.sund[i].x);
-                    else continue;
-                }
-
-                for (int i = 0; i <= Form1.Minisund; i++)
+                using (StreamWriter sw = new StreamWriter(textBox1.Text + ".txt")) 
                 {
-                    if (Form1.sund[i] != null)
-                        sw.WriteLine(Form1.sund[i].y);
-                    else continue;
-                }
-                sw.WriteLine(Form1.level);
-                sw.Close();
-            }
+                    sw.WriteLine(Form1.man.x);
+                    sw.WriteLine(Form1.man.y);
+                    for (int i = 0; i < 5; i++)
+                        sw.WriteLine(Form1.mon[i].x);
+                    for (int i = 0; i < 5; i++)
+                        sw.WriteLine(Form1.mon[i].y);
+                    for (int i = 0; i <= Form1.wall.Length - 1; i++)
+                        sw.WriteLine(Form1.wall[i].x);
+                    for (int i = 0; i <= Form1.wall.Length - 1; i++)
+                        sw.WriteLine(Form1.wall[i].y);
+                    sw.WriteLine(Form1.Minisund);
 
+                    for (int i = 0; i <  Form1.Minisund; i++) { 
+                        if (Form1.sund[i] != null)
+                            sw.WriteLine(Form1.sund[i].x);
+                    }
+
+                    for (int i = 0; i < Form1.Minisund; i++)
+                    {
+                        if (Form1.sund[i] != null)
+                            sw.WriteLine(Form1.sund[i].y);
+                    }
+                    sw.WriteLine(Form1.level);
+                }
+            }
+             
             if (Text == "Загрузка")
             {
                 if (textBox1.Text == "")
@@ -87,20 +85,18 @@ namespace WindowsFormsApplication7
                     Form1.wall[i].y = Convert.ToInt32(sr.ReadLine());
                 Form1.Minisund = Convert.ToInt32(sr.ReadLine());
 
-                for (int i = 0; i <= Form1.Minisund; i++)
+                for (int i = 0; i < Form1.Minisund; i++)
                     if (Form1.sund[i] != null)
                         Form1.sund[i] = new Form1.Sunduk(Form1.sund[i].x, Form1.sund[i].y);
-                    else continue;
-
-                for (int i = 0; i <= Form1.Minisund; i++)
+                    
+                for (int i = 0; i < Form1.Minisund; i++)
                     if (Form1.sund[i] != null)
-                        Form1.sund[i].x = Convert.ToInt32(sr.ReadLine()); // Тут на 2-м шаге исключение
-                    else continue;
-
-                for (int i = 0; i <= Form1.Minisund; i++)
+                        Form1.sund[i].x = Convert.ToInt32(sr.ReadLine()); 
+                    
+                for (int i = 0; i < Form1.Minisund; i++)
                     if (Form1.sund[i] != null)
                         Form1.sund[i].y = Convert.ToInt32(sr.ReadLine());
-                    else continue;
+                    
 
                 Form1.level = Convert.ToInt32(sr.ReadLine());
                 sr.Close();

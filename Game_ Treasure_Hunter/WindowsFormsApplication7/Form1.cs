@@ -30,7 +30,7 @@ namespace WindowsFormsApplication7
 
         public Form1()
         {
-            MaximizeBox = false; // Чтобы нельзя было разворачивать форму на весь экран
+            MaximizeBox = false; 
             InitializeComponent();
             label6 = new System.Windows.Forms.Label();
             this.panel2.Controls.Add(label6);
@@ -192,16 +192,11 @@ namespace WindowsFormsApplication7
             wall[21] = new Wall(6, 12);
             wall[22] = new Wall(4, 10);
         }
-        
-        static void level4() 
-        {
-
-        }
-
+       
         static public void next_level()
         {
             level++;
-            if (level == 5)
+            if (level == 4)
             {
                 MessageBox.Show("Вы выйграли!");
                 return;
@@ -259,12 +254,11 @@ namespace WindowsFormsApplication7
                 image = Properties.Resources.Down_1_;
 
             }
-            public void left()
+            public void Left()
             {
-                x--;
                 image = Properties.Resources.Left_2_;
-                if (x < 0)
-                    x++;
+                if (x > 0)
+                    x--;
                 for (int i = 0; i < wall.Length; i++)
                     if(wall[i]!= null) 
                         if (x == wall[i].x && y == wall[i].y) 
@@ -272,7 +266,7 @@ namespace WindowsFormsApplication7
                             x++; 
                             return;
                         }
-                for (int i = 0; i < 5; i++)
+                for (int i = 0; i < mon.Length; i++)
                     if (mon[i] != null) 
                         if (x == mon[i].x && y == mon[i].y) 
                             life--;
@@ -288,34 +282,15 @@ namespace WindowsFormsApplication7
                         {
                             sund[i] = null;
                             Minisund--;
-                            if (Minisund == 0)
-                            {
-                                timer1.Enabled = false;
-                                timer4.Enabled = false;
+                            if (Minisund == 0) 
                                 next_level();
-                            }
                         }
-                if (home_enamble == 10 && x == 6 && y == 6)
-                {
-                    life++;
-                    home_enamble = 0;
-                    if (home_enamble > 10)
-                        home_enamble--;
-
-                    label6.Text = home_enamble.ToString();
-                    if (life > 3)
-                    {
-                        life--;
-                    }
-                }
-                
             }
-            public void right()
+            public void Right()
             {
-                x++;
                 image = Properties.Resources.Right_3_;
-                if (x > Form1.areasize)
-                    x--;
+                if (x < Form1.areasize)
+                    x++;
                 for (int i = 0; i < wall.Length; i++)
                     if (wall[i] != null) 
                         if (x == wall[i].x && y == wall[i].y) 
@@ -338,34 +313,15 @@ namespace WindowsFormsApplication7
                         { 
                             sund[i] = null; 
                             Minisund--; 
-                            if (Minisund == 0) 
-                            { 
-                                timer1.Enabled = false; 
-                                timer4.Enabled = false; 
+                            if (Minisund == 0)
                                 next_level();
-                            }
                         }
-                if (home_enamble == 10 && x == 6 && y == 6)
-                {
-                    life++;
-                    home_enamble = 0;
-                    if (home_enamble > 10)
-                    {
-                        home_enamble--;
-                    }
-                    label6.Text = home_enamble.ToString();
-                    if (life > 3)
-                    {
-                        life--;
-                    }
-                }
             }
-            public void down()
+            public void Down()
             {
-                y++;
                 image = Properties.Resources.Down_1_;
-                if (y > Form1.areasize)
-                    y--;
+                if (y < Form1.areasize)
+                    y++;
                 for (int i = 0; i < wall.Length; i++)
                     if(wall[i]!= null) 
                         if (x == wall[i].x && y == wall[i].y) 
@@ -390,33 +346,14 @@ namespace WindowsFormsApplication7
                             Minisund--; 
 
                             if (Minisund == 0) 
-                            { 
-                                timer1.Enabled = false; 
-                                timer4.Enabled = false; 
                                 next_level();
-                            }
                         }
-                if (home_enamble == 10 && x == 6 && y == 6)
-                {
-                    life++;
-                    home_enamble = 0;
-                    if (home_enamble > 10)
-                    {
-                        home_enamble--;
-                    }
-                    label6.Text = home_enamble.ToString();
-                    if (life > 3)
-                    {
-                        life--;
-                    }
-                }
             }
-            public void up()
+            public void Up()
             {
-                y--;
                 image = Properties.Resources.Up_4_;
-                if (y < 0)
-                    y++;
+                if (y > 0)
+                    y--;
                 for (int i = 0; i < wall.Length; i++)
                     if (wall[i] != null) 
                         if (x == wall[i].x && y == wall[i].y) 
@@ -442,28 +379,8 @@ namespace WindowsFormsApplication7
                            sund[i] = null; 
                            Minisund--; 
                            if (Minisund == 0) 
-                           { 
-                               timer1.Enabled = false; 
-                               timer4.Enabled = false; 
                                next_level();
-                           }
                        }
-
-                if (home_enamble == 10 && x == 6 && y == 6)
-                {
-                    life++;
-                    home_enamble = 0;
-                    if (home_enamble > 10)
-                    {
-                        home_enamble--;
-                    }
-                    label6.Location = new Point(362, 2);
-                    label6.Text = home_enamble.ToString();
-                    if (life > 3)
-                    {
-                        life--;
-                    }
-                }
             }
         }
         public class Monster
@@ -509,7 +426,7 @@ namespace WindowsFormsApplication7
                     return true;
                 return false;
             }
-            public void left()
+            public void Left()
             {
                 image = Properties.Resources.Mon_left;
                 if (move_ok(x - 1, y) == false)
@@ -525,7 +442,7 @@ namespace WindowsFormsApplication7
                     }
                 }
             }
-            public void right()
+            public void Right()
             {
                 image = Properties.Resources.Mon_right;
                 if (move_ok(x + 1, y) == false)
@@ -541,7 +458,7 @@ namespace WindowsFormsApplication7
                     }
                 }
             }
-            public void down()
+            public void Down()
             {
                 image = Properties.Resources.Mon_right;
                 if (move_ok(x, y+1) == false)
@@ -557,7 +474,7 @@ namespace WindowsFormsApplication7
                     }
                 }
             }
-            public void up()
+            public void Up()
             {
                 image = Properties.Resources.Mon_right;
                 if (move_ok(x, y - 1) == false)
@@ -573,19 +490,19 @@ namespace WindowsFormsApplication7
                     }
                 }
             }
-            public void move()
+            public void Mon_move()
             {
                 
                 Random r = new Random();
                 int c = r.Next(x * 2 + y * 3 + x + 8 + y) % 4;
                 if (c == 0)
-                    right();
+                    Right();
                 if (c == 1)
-                    left();
+                    Left();
                 if (c == 2)
-                    up();
+                    Up();
                 if (c == 3)
-                    down();
+                    Down();
             }
         }
 
@@ -705,29 +622,17 @@ namespace WindowsFormsApplication7
             {
                 switch (e.KeyCode) 
                 {
-                    case Keys.Left:
-                        man.left();
+                    case Keys.Left: case Keys.A:
+                        man.Left();
                         break;
-                    case Keys.Right:
-                        man.right();
+                    case Keys.Right: case Keys.D:
+                        man.Right();
                         break;
-                    case Keys.Up:
-                        man.up();
+                    case Keys.Up: case Keys.W:
+                        man.Up();
                         break;
-                    case Keys.Down:
-                        man.down();
-                        break;
-                    case Keys.W:
-                        man.up();
-                        break;
-                    case Keys.S:
-                        man.down();
-                        break;
-                    case Keys.A:
-                        man.left();
-                        break;
-                    case Keys.D:
-                        man.right();
+                    case Keys.Down: case Keys.S:
+                        man.Down();
                         break;
                 }
                 panel1.Refresh();
@@ -736,16 +641,22 @@ namespace WindowsFormsApplication7
 
         private void timer4_Tick(object sender, EventArgs e)
         {
-            home_enamble++;
-            if (home_enamble > 10)
-                home_enamble--;
+            if (home_enamble < 10)
+                home_enamble++;
             label6.Text = home_enamble.ToString();
+            if (home_enamble == 10 && man.x == 6 && man.y == 6)
+            {
+                if (life < 3)
+                    life++;
+                home_enamble = 0;
+                label6.Text = home_enamble.ToString();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             for (int i = 0; i < 5; i++)
-                mon[i].move();
+                mon[i].Mon_move();
             panel1.Refresh();
             panel2.Refresh();
         }
