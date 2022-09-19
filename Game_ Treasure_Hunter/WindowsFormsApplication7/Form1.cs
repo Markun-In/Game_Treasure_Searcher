@@ -40,7 +40,6 @@ namespace WindowsFormsApplication7
             label6.Name = "label6";
             label6.Size = new System.Drawing.Size(24, 25);
             label6.TabIndex = 0;
-            label6.Text = "0";
             panel3.Location = new Point(0, 0);
             panel2.Location = new Point(0, 0);
             panel3.Visible = true;
@@ -48,12 +47,11 @@ namespace WindowsFormsApplication7
             timer4 = new Timer();
             timer4.Interval = 1000;
             timer4.Enabled = false;
-            timer1.Interval = 250;
+            timer1.Interval = 350;
             timer1.Enabled = false;
             timer1.Tick += timer1_Tick;
             timer4.Tick += timer4_Tick;
             panel1.Location = new Point(0, 34);
-            level1();
         }
 
         void randLavel()
@@ -252,7 +250,6 @@ namespace WindowsFormsApplication7
                 x = i;
                 y = j;
                 image = Properties.Resources.Down_1_;
-
             }
             public void Left()
             {
@@ -260,22 +257,12 @@ namespace WindowsFormsApplication7
                 if (x > 0)
                     x--;
                 for (int i = 0; i < wall.Length; i++)
-                    if(wall[i]!= null) 
-                        if (x == wall[i].x && y == wall[i].y) 
-                        { 
-                            x++; 
-                            return;
-                        }
+                    if (x == wall[i].x && y == wall[i].y)
+                        x++;
                 for (int i = 0; i < mon.Length; i++)
                     if (mon[i] != null) 
                         if (x == mon[i].x && y == mon[i].y) 
                             life--;
-                if (life == 0)
-                {
-                    timer1.Enabled = false;
-                    timer4.Enabled = false;
-                    MessageBox.Show("Вы проиграли!");
-                }
                 for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null)
                         if (x == sund[i].x && y == sund[i].y)
@@ -292,21 +279,11 @@ namespace WindowsFormsApplication7
                 if (x < Form1.areasize)
                     x++;
                 for (int i = 0; i < wall.Length; i++)
-                    if (wall[i] != null) 
-                        if (x == wall[i].x && y == wall[i].y) 
-                        { 
-                            x--; 
-                            return;
-                        }
+                    if (x == wall[i].x && y == wall[i].y)
+                        x--;
                 for (int i = 0; i < 5; i++)
                     if (x == mon[i].x && y == mon[i].y)
                         life--;
-                if (life == 0)
-                {
-                    timer1.Enabled = false;
-                    timer4.Enabled = false;
-                    MessageBox.Show("Вы проиграли!");
-                }
                 for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null) 
                         if (x == sund[i].x && y == sund[i].y) 
@@ -323,21 +300,11 @@ namespace WindowsFormsApplication7
                 if (y < Form1.areasize)
                     y++;
                 for (int i = 0; i < wall.Length; i++)
-                    if(wall[i]!= null) 
-                        if (x == wall[i].x && y == wall[i].y) 
-                        { 
-                            y--; 
-                            return;
-                        }
+                    if (x == wall[i].x && y == wall[i].y)
+                        y--; 
                 for (int i = 0; i < 5; i++)
                     if (x == mon[i].x && y == mon[i].y)
                         life--;
-                if (life == 0)
-                {
-                    timer1.Enabled = false;
-                    timer4.Enabled = false;
-                    MessageBox.Show("Вы проиграли!");
-                }
                 for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null) 
                         if (x == sund[i].x && y == sund[i].y) 
@@ -354,23 +321,12 @@ namespace WindowsFormsApplication7
                 if (y > 0)
                     y--;
                 for (int i = 0; i < wall.Length; i++)
-                    if (wall[i] != null) 
-                        if (x == wall[i].x && y == wall[i].y) 
-                        { 
-                            y++; 
-                            return;
-                        }
-
+                    if (x == wall[i].x && y == wall[i].y) 
+                        y++;
                 for (int i = 0; i < 5; i++)
                     if (mon[i] != null) 
                         if (x == mon[i].x && y == mon[i].y) 
                             life--;
-                if (life == 0)
-                {
-                    timer1.Enabled = false;
-                    timer4.Enabled = false;
-                    MessageBox.Show("Вы проиграли!");
-                }
                 for (int i = 0; i < sund.Length; i++)
                    if (sund[i] != null) 
                        if (x == sund[i].x && y == sund[i].y) 
@@ -431,15 +387,7 @@ namespace WindowsFormsApplication7
                 if (move_ok(x - 1, y) == false)
                     x--;
                 if (man.x == x && man.y == y)
-                {
                     life--;
-                    if (life == 0)
-                    {
-                        timer1.Enabled = false;
-                        timer4.Enabled = false;
-                        MessageBox.Show("Вы проиграли!");
-                    }
-                }
             }
             public void Right()
             {
@@ -447,15 +395,7 @@ namespace WindowsFormsApplication7
                 if (move_ok(x + 1, y) == false)
                     x++;
                 if (man.x == x && man.y == y)
-                {
                     life--;
-                    if (life == 0)
-                    {
-                        timer1.Enabled = false;
-                        timer4.Enabled = false;
-                        MessageBox.Show("Вы проиграли!");
-                    }
-                }
             }
             public void Down()
             {
@@ -463,15 +403,7 @@ namespace WindowsFormsApplication7
                 if (move_ok(x, y+1) == false)
                     y++;
                 if (man.x == x && man.y == y)
-                {
                     life--;
-                    if (life == 0)
-                    {
-                        timer1.Enabled = false;
-                        timer4.Enabled = false;
-                        MessageBox.Show("Вы проиграли!");
-                    }
-                }
             }
             public void Up()
             {
@@ -479,15 +411,7 @@ namespace WindowsFormsApplication7
                 if (move_ok(x, y - 1) == false)
                     y--;
                 if (man.x == x && man.y == y)
-                {
                     life--;
-                    if (life == 0)
-                    {
-                        timer1.Enabled = false;
-                        timer4.Enabled = false;
-                        MessageBox.Show("Вы проиграли!");
-                    }
-                }
             }
             public void Mon_move()
             {
@@ -529,7 +453,7 @@ namespace WindowsFormsApplication7
 
             bool move_ok(int n, int h)
             {
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null)
                         if (sund[i].x == n && sund[i].y == h)
                             return true;
@@ -546,7 +470,6 @@ namespace WindowsFormsApplication7
                 return false;
             }
         }
-
         public class Sunduk
         {
             public Image image;
@@ -568,7 +491,6 @@ namespace WindowsFormsApplication7
                 } while(move_ok(x,y) == true);
                 image = Properties.Resources.Treasure;
             }
-
             bool move_ok(int n, int h)
               {
                   for (int i = 0; i < 4; i++) 
@@ -592,7 +514,7 @@ namespace WindowsFormsApplication7
         {
             if (e.KeyCode == Keys.Escape)
             {
-                if (timer1.Enabled && life >= 1) //Чтобы нельзя было попасть после сметри из меню в игру
+                if (timer1.Enabled && life >= 1)
                 {
                         timer1.Enabled = false;
                         timer4.Enabled = false;
@@ -613,7 +535,7 @@ namespace WindowsFormsApplication7
                         panel3.Visible = true;
                     }
                 }
-                if (life <= 0) //При входе в меню после смерти можно начать только новую игру
+                if (life <= 0) 
                    label5.Visible = true;
                     
             }
@@ -637,24 +559,26 @@ namespace WindowsFormsApplication7
                 panel1.Refresh();
             }
         }
-
         private void timer4_Tick(object sender, EventArgs e)
         {
             if (home_enamble < 10)
                 home_enamble++;
             label6.Text = home_enamble.ToString();
-            if (home_enamble == 10 && man.x == 6 && man.y == 6)
+            if (home_enamble == 10 && man.x == 6 && man.y == 6 && life < 3)
             {
-                if (life < 3)
-                    life++;
+                life++; 
                 home_enamble = 0;
                 label6.Text = home_enamble.ToString();
             }
-
         }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (life <= 0)
+            {
+                timer1.Enabled = false;
+                timer4.Enabled = false;
+                MessageBox.Show("Вы проиграли!");
+            }
             for (int i = 0; i < 5; i++)
                 mon[i].Mon_move();
             panel1.Refresh();
@@ -704,8 +628,9 @@ namespace WindowsFormsApplication7
 
         private void label5_Click(object sender, EventArgs e)   // Нажатие на кнопку "Новая игра"
         {
-            
             level1();
+            life = 3;
+            home_enamble = 0;
             label1.Visible = true;
             panel3.Visible = false;
             timer1.Enabled = true;
