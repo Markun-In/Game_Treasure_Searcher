@@ -215,7 +215,7 @@ namespace WindowsFormsApplication7
             e.Graphics.DrawImage(man.image, man.x * blockSize, man.y * blockSize, blockSize, blockSize);
             for (int i = 0; i < 5; i++)
                 e.Graphics.DrawImage(mon[i].image, mon[i].x * blockSize, mon[i].y * blockSize, blockSize, blockSize);
-            for (int i = 0; i < 4; i++)
+            for (int i = 0; i < sund.Length; i++)
                 if (sund[i] != null)
                     e.Graphics.DrawImage(sund[i].image, sund[i].x * blockSize, sund[i].y * blockSize, blockSize, blockSize);
             for (int i = 0; i < wall.Length; i++)
@@ -276,7 +276,7 @@ namespace WindowsFormsApplication7
                     timer4.Enabled = false;
                     MessageBox.Show("Вы проиграли!");
                 }
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null)
                         if (x == sund[i].x && y == sund[i].y)
                         {
@@ -307,7 +307,7 @@ namespace WindowsFormsApplication7
                     timer4.Enabled = false;
                     MessageBox.Show("Вы проиграли!");
                 }
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null) 
                         if (x == sund[i].x && y == sund[i].y) 
                         { 
@@ -338,13 +338,12 @@ namespace WindowsFormsApplication7
                     timer4.Enabled = false;
                     MessageBox.Show("Вы проиграли!");
                 }
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null) 
                         if (x == sund[i].x && y == sund[i].y) 
                         { 
                             sund[i] = null; 
                             Minisund--; 
-
                             if (Minisund == 0) 
                                 next_level();
                         }
@@ -372,7 +371,7 @@ namespace WindowsFormsApplication7
                     timer4.Enabled = false;
                     MessageBox.Show("Вы проиграли!");
                 }
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < sund.Length; i++)
                    if (sund[i] != null) 
                        if (x == sund[i].x && y == sund[i].y) 
                        { 
@@ -414,7 +413,7 @@ namespace WindowsFormsApplication7
                             return true;
                 if (man.x == a && man.y == b)
                     return true;
-                for (int i = 0; i < 4; i++)
+                for (int i = 0; i < sund.Length; i++)
                     if (sund[i] != null)
                         if (sund[i].x == a && sund[i].y == b)
                             return true;
@@ -651,6 +650,7 @@ namespace WindowsFormsApplication7
                 home_enamble = 0;
                 label6.Text = home_enamble.ToString();
             }
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
