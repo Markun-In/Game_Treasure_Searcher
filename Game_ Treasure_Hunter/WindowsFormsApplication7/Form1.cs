@@ -68,7 +68,7 @@ namespace WindowsFormsApplication7
                 sund[i] = new Sunduk();
         }
 
-        void level1()
+        void Level1()
         {
             Minisund = 4;
             man = new Man(6, 6);
@@ -109,7 +109,7 @@ namespace WindowsFormsApplication7
             wall[22] = new Wall(10, 10);
         }
 
-        static void level2()
+        static void Level2()
         {
             Minisund = 4;
             man = new Man(6, 6);
@@ -150,7 +150,7 @@ namespace WindowsFormsApplication7
             wall[22] = new Wall(11, 6);
         }
 
-        static void level3()
+        static void Level3()
         {
             Minisund = 4;
             man = new Man(6, 6);
@@ -203,11 +203,11 @@ namespace WindowsFormsApplication7
             timer4.Enabled = true;
             timer1.Enabled = true;
             if (level == 2)
-                level2();
+                Level2();
             if (level == 3)
-                level3();
+                Level3();
         }
-
+        
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(man.image, man.x * blockSize, man.y * blockSize, blockSize, blockSize);
@@ -374,9 +374,9 @@ namespace WindowsFormsApplication7
                         if (sund[i].x == a && sund[i].y == b)
                             return true;
                 for (int n = 0; n < wall.Length; n++)
-                        if (wall[n] != null)
-                            if (a == wall[n].x && b == wall[n].y)
-                                return true;
+                    if (wall[n] != null)
+                        if (a == wall[n].x && b == wall[n].y)
+                            return true;
                 if (a < 0 || b < 0 || a > 9 || b > 9)
                     return true;
                 return false;
@@ -415,7 +415,6 @@ namespace WindowsFormsApplication7
             }
             public void Mon_move()
             {
-                
                 Random r = new Random();
                 int c = r.Next(x * 2 + y * 3 + x + 8 + y) % 4;
                 if (c == 0)
@@ -628,7 +627,7 @@ namespace WindowsFormsApplication7
 
         private void label5_Click(object sender, EventArgs e)   // Нажатие на кнопку "Новая игра"
         {
-            level1();
+            Level1();
             life = 3;
             home_enamble = 0;
             label1.Visible = true;
