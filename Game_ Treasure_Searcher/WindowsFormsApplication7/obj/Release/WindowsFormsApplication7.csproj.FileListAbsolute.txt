@@ -1,0 +1,85 @@
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.Cache
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.Cache
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Save.resources
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csprojAssemblyReference.cache
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Save.resources
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.cache
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+I:\2 Фото,видео,л.ф\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Save.resources
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+E:\Учёба\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Save.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.AssemblyReference.cache
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Save.resources
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.cache
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+D:\Новая папка\Работы в портфолио\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Save.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe.config
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.exe
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\bin\Release\WindowsFormsApplication7.pdb
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Form1.resources
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Properties.Resources.resources
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.Save.resources
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.exe
+E:\Учёба\Работы в портфолио\Волшебное болото\Волшебное болото\WindowsFormsApplication7\obj\Release\WindowsFormsApplication7.pdb
