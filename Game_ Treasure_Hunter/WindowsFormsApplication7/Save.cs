@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using static WindowsFormsApplication7.Form1;
+using static WindowsFormsApplication7.Main;
 
 namespace WindowsFormsApplication7
 {
@@ -34,26 +34,26 @@ namespace WindowsFormsApplication7
 
                 using (StreamWriter sw = new StreamWriter(textBox1.Text + ".txt")) 
                 {
-                    sw.WriteLine(Form1.man.x);
-                    sw.WriteLine(Form1.man.y);
+                    sw.WriteLine(Main.man.x);
+                    sw.WriteLine(Main.man.y);
                     for (int i = 0; i < 5; i++)
-                        sw.WriteLine(Form1.mon[i].x);
+                        sw.WriteLine(Main.mon[i].x);
                     for (int i = 0; i < 5; i++)
-                        sw.WriteLine(Form1.mon[i].y);
-                    for (int i = 0; i <= Form1.wall.Length - 1; i++)
-                        sw.WriteLine(Form1.wall[i].x);
-                    for (int i = 0; i <= Form1.wall.Length - 1; i++)
-                        sw.WriteLine(Form1.wall[i].y);
-                    sw.WriteLine(Form1.Minisund);
-                    sw.WriteLine(Form1.life);
+                        sw.WriteLine(Main.mon[i].y);
+                    for (int i = 0; i <= Main.wall.Length - 1; i++)
+                        sw.WriteLine(Main.wall[i].x);
+                    for (int i = 0; i <= Main.wall.Length - 1; i++)
+                        sw.WriteLine(Main.wall[i].y);
+                    sw.WriteLine(Main.Minisund);
+                    sw.WriteLine(Main.life);
                     for (int i = 0; i <  4; i++) { 
-                        if (Form1.sund[i] != null)
+                        if (Main.sund[i] != null)
                         {
-                            sw.WriteLine(Form1.sund[i].x);
-                            sw.WriteLine(Form1.sund[i].y);
+                            sw.WriteLine(Main.sund[i].x);
+                            sw.WriteLine(Main.sund[i].y);
                         }
                     }
-                    sw.WriteLine(Form1.level);
+                    sw.WriteLine(Main.level);
                 }
             }
              
@@ -70,33 +70,34 @@ namespace WindowsFormsApplication7
                     return;
                 }
 
-                StreamReader sr = new StreamReader(textBox1.Text + ".txt");
-                Form1.man.x = Convert.ToInt32(sr.ReadLine());
-                Form1.man.y = Convert.ToInt32(sr.ReadLine());
-                for (int i = 0; i < 5; i++)
-                    Form1.mon[i].x = Convert.ToInt32(sr.ReadLine());
-                for (int i = 0; i < 5; i++)
-                    Form1.mon[i].y = Convert.ToInt32(sr.ReadLine());
-                for (int i = 0; i <= Form1.wall.Length - 1; i++)
-                    Form1.wall[i].x = Convert.ToInt32(sr.ReadLine());
-                for (int i = 0; i <= Form1.wall.Length - 1; i++)  
-                    Form1.wall[i].y = Convert.ToInt32(sr.ReadLine());
-                Form1.Minisund = Convert.ToInt32(sr.ReadLine());
-                Form1.life = Convert.ToInt32(sr.ReadLine());
-                Form1.sund = new Form1.Sunduk[Minisund];
+                using (StreamReader sr = new StreamReader(textBox1.Text + ".txt")) 
+                {
+                    Main.man.x = Convert.ToInt32(sr.ReadLine()); 
+                    Main.man.y = Convert.ToInt32(sr.ReadLine());
+                    for (int i = 0; i < 5; i++)
+                        Main.mon[i].x = Convert.ToInt32(sr.ReadLine());
+                    for (int i = 0; i < 5; i++)
+                        Main.mon[i].y = Convert.ToInt32(sr.ReadLine());
+                    for (int i = 0; i <= Main.wall.Length - 1; i++)
+                        Main.wall[i].x = Convert.ToInt32(sr.ReadLine());
+                    for (int i = 0; i <= Main.wall.Length - 1; i++)  
+                        Main.wall[i].y = Convert.ToInt32(sr.ReadLine());
+                    Main.Minisund = Convert.ToInt32(sr.ReadLine());
+                    Main.life = Convert.ToInt32(sr.ReadLine());
+                    Main.sund = new Main.Sunduk[Minisund];
 
-                for (int i = 0; i < Form1.Minisund; i++)
-                    Form1.sund[i] = new Form1.Sunduk(0 ,0);
-                
-                for (int i = 0; i < Minisund; i++)
-                    if (Form1.sund[i] != null)
-                    {
-                        Form1.sund[i].x = Convert.ToInt32(sr.ReadLine());
-                        Form1.sund[i].y = Convert.ToInt32(sr.ReadLine());
-                    }
-               
-                Form1.level = Convert.ToInt32(sr.ReadLine());
-                sr.Close();
+                    for (int i = 0; i < Main.Minisund; i++)
+                        Main.sund[i] = new Main.Sunduk(0 ,0);
+                    
+                    for (int i = 0; i < Minisund; i++)
+                        if (Main.sund[i] != null)
+                        {
+                            Main.sund[i].x = Convert.ToInt32(sr.ReadLine());
+                            Main.sund[i].y = Convert.ToInt32(sr.ReadLine());
+                        }
+                   
+                    Main.level = Convert.ToInt32(sr.ReadLine());
+                }
             }
             Close();
         }

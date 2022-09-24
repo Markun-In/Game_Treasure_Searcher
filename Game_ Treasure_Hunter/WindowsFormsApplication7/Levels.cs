@@ -3,25 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static WindowsFormsApplication7.Form1;
+using System.Windows.Forms;
+using static WindowsFormsApplication7.Main;
 
 namespace WindowsFormsApplication7
 {
     public class Levels
     {
-        void RandLavel()
-        {
-            man = new Man(6, 6);
-            mon = new Monster[5];
-            sund = new Sunduk[4];
-            wall = new Wall[23];
-            for (int i = 0; i < wall.Length; i++)
-                wall[i] = new Wall();
-            for (int i = 0; i < 5; i++)
-                mon[i] = new Monster();
-            for (int i = 0; i < 4; i++)
-                sund[i] = new Sunduk();
-        }
         public static void Level1()
         {
             Minisund = 4;
@@ -62,7 +50,6 @@ namespace WindowsFormsApplication7
             wall[21] = new Wall(9, 9);
             wall[22] = new Wall(10, 10);
         }
-
         public static void Level2()
         {
             Minisund = 4;
@@ -144,6 +131,38 @@ namespace WindowsFormsApplication7
             wall[21] = new Wall(6, 12);
             wall[22] = new Wall(4, 10);
         }
-
+        void RandLevel()
+        {
+            man = new Man(6, 6);
+            mon = new Monster[5];
+            sund = new Sunduk[4];
+            wall = new Wall[23];
+            for (int i = 0; i < wall.Length; i++)
+                wall[i] = new Wall();
+            for (int i = 0; i < 5; i++)
+                mon[i] = new Monster();
+            for (int i = 0; i < 4; i++)
+                sund[i] = new Sunduk();
+        }
+        static public void Next_level()
+        {
+            if (level == 4)
+            {
+                timer1.Enabled = false;
+                timer4.Enabled = false;
+                MessageBox.Show("Вы выйграли!");
+                return;
+            }
+            else
+            {
+                level++;
+                timer4.Enabled = true;
+                timer1.Enabled = true;
+                if (level == 2)
+                    Levels.Level2();
+                if (level == 3)
+                    Levels.Level3();
+            }
+        }
     }
 }
