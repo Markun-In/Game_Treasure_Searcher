@@ -8,9 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-using static WindowsFormsApplication7.Main;
+using static Treasure_Searcher.Main;
 
-namespace WindowsFormsApplication7
+namespace Treasure_Searcher
 {
     public partial class Save : Form
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApplication7.Properties {
+namespace Treasure_Searcher.Properties {
     using System;
     
     
@@ -63,46 +63,6 @@ namespace WindowsFormsApplication7.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _1613576421_58_p_fon_s_lesom_dlya_shapki_64 {
-            get {
-                object obj = ResourceManager.GetObject("1613576421_58-p-fon-s-lesom-dlya-shapki-64", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1613576421_58_p_fon_s_lesom_dlya_shapki_641 {
-            get {
-                object obj = ResourceManager.GetObject("1613576421_58-p-fon-s-lesom-dlya-shapki-641", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1613576421_58_p_fon_s_lesom_dlya_shapki_642 {
-            get {
-                object obj = ResourceManager.GetObject("1613576421_58-p-fon-s-lesom-dlya-shapki-642", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _3D_graphics_Spectrum_015458_ {
-            get {
-                object obj = ResourceManager.GetObject("_3D_graphics_Spectrum_015458_", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Down_1_ {
             get {
                 object obj = ResourceManager.GetObject("Down_1_", resourceCulture);
@@ -116,6 +76,16 @@ namespace WindowsFormsApplication7.Properties {
         internal static System.Drawing.Bitmap Fon {
             get {
                 object obj = ResourceManager.GetObject("Fon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fon1 {
+            get {
+                object obj = ResourceManager.GetObject("Fon1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,16 +196,6 @@ namespace WindowsFormsApplication7.Properties {
         internal static System.Drawing.Bitmap se8 {
             get {
                 object obj = ResourceManager.GetObject("se8", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Treasure {
-            get {
-                object obj = ResourceManager.GetObject("Treasure", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

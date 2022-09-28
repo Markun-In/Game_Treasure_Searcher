@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static WindowsFormsApplication7.Main;
+using static Treasure_Searcher.Main;
 
-namespace WindowsFormsApplication7
+namespace Treasure_Searcher
 {
     public class Levels
     {

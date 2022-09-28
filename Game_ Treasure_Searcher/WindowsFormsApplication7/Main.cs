@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using System.Drawing.Drawing2D;
 using System.IO;
 
-namespace WindowsFormsApplication7
+namespace Treasure_Searcher
 {
     public partial class Main : Form
     {
@@ -320,7 +320,7 @@ namespace WindowsFormsApplication7
             {
                 x = a;
                 y = b;
-                image = Properties.Resources.Treasure;
+                image = Properties.Resources.mini_sunduk;
             }
 
             public Sunduk()
@@ -331,7 +331,7 @@ namespace WindowsFormsApplication7
                     x = r.Next(Main.areasize);
                     y = r.Next(Main.areasize);
                 } while(move_ok(x,y) == true);
-                image = Properties.Resources.Treasure;
+                image = Properties.Resources.mini_sunduk;
             }
             bool move_ok(int n, int h)
               {
@@ -469,7 +469,7 @@ namespace WindowsFormsApplication7
 
         private void label5_Click(object sender, EventArgs e)   // Нажатие на кнопку "Новая игра"
         {
-            Levels.Level3();
+            Levels.Level1();
             life = 3;
             home_enamble = 0;
             label1.Visible = true;

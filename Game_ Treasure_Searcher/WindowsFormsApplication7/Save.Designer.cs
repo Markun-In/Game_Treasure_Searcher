@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication7
+﻿namespace Treasure_Searcher
 {
     partial class Save
     {

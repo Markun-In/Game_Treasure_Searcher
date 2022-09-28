@@ -1,4 +1,4 @@
-﻿namespace WindowsFormsApplication7
+﻿namespace Treasure_Searcher
 {
     public class MyPanel : System.Windows.Forms.Panel
     {
@@ -44,7 +44,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.timer3 = new System.Windows.Forms.Timer(this.components);
-            this.panel1 = new WindowsFormsApplication7.MyPanel();
+            this.panel1 = new Treasure_Searcher.MyPanel();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,7 +59,7 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.White;
-            this.panel3.BackgroundImage = global::WindowsFormsApplication7.Properties.Resources._1613576421_58_p_fon_s_lesom_dlya_shapki_642;
+            this.panel3.BackgroundImage = global::Treasure_Searcher.Properties.Resources.Fon;
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.label3);
@@ -139,7 +139,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::WindowsFormsApplication7.Properties.Resources.se8;
+            this.panel1.BackgroundImage = global::Treasure_Searcher.Properties.Resources.se8;
             this.panel1.Location = new System.Drawing.Point(0, 34);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(902, 909);
