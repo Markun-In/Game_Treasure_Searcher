@@ -74,6 +74,7 @@ namespace Treasure_Searcher
                 {
                     Main.man.x = Convert.ToInt32(sr.ReadLine()); 
                     Main.man.y = Convert.ToInt32(sr.ReadLine());
+
                     for (int i = 0; i < 5; i++)
                         Main.mon[i].x = Convert.ToInt32(sr.ReadLine());
                     for (int i = 0; i < 5; i++)
@@ -82,6 +83,7 @@ namespace Treasure_Searcher
                         Main.wall[i].x = Convert.ToInt32(sr.ReadLine());
                     for (int i = 0; i <= Main.wall.Length - 1; i++)  
                         Main.wall[i].y = Convert.ToInt32(sr.ReadLine());
+
                     Main.Minisund = Convert.ToInt32(sr.ReadLine());
                     Main.life = Convert.ToInt32(sr.ReadLine());
                     Main.sund = new Main.Sunduk[Minisund];
