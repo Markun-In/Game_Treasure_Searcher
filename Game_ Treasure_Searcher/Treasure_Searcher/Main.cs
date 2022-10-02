@@ -467,7 +467,7 @@ namespace Treasure_Searcher
                 return;
         }
 
-        private void label5_Click(object sender, EventArgs e)   // Нажатие на кнопку "Новая игра"
+        private void label5_Click(object sender, EventArgs e) // Нажатие на кнопку "Новая игра"
         {
             Levels.Level1();
             life = 3;

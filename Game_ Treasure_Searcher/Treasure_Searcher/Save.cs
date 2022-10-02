@@ -97,7 +97,6 @@ namespace Treasure_Searcher
                             Main.sund[i].x = Convert.ToInt32(sr.ReadLine());
                             Main.sund[i].y = Convert.ToInt32(sr.ReadLine());
                         }
-                   
                     Main.level = Convert.ToInt32(sr.ReadLine());
                 }
             }
