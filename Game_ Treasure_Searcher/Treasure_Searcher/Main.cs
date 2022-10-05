@@ -134,7 +134,7 @@ namespace Treasure_Searcher
                 panel1.Refresh();
             }
         }
-        private void timer4_Tick(object sender, EventArgs e)
+        private static void timer4_Tick(object sender, EventArgs e)
         {
             if (home_enamble < 10)
                 home_enamble++;

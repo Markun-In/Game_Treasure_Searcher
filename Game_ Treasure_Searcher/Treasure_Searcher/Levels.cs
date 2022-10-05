@@ -133,7 +133,7 @@ namespace Treasure_Searcher
         }
 
         #region RandLevel
-        void RandLevel()
+        /* void RandLevel()
         {
             man = new Man(6, 6);
             mon = new Monster[5];
@@ -145,7 +145,7 @@ namespace Treasure_Searcher
                 mon[i] = new Monster();
             for (int i = 0; i < 4; i++)
                 sund[i] = new Sunduk();
-        }
+        } */
         #endregion
 
         public static void Next_level()

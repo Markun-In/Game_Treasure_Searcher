@@ -19,7 +19,8 @@ namespace Treasure_Searcher
             image = Properties.Resources.mini_sunduk;
         }
 
-        public Sunduk()
+        #region RandSunduk
+        /* public Sunduk()
         {
             Random r = new Random();
             do
@@ -28,7 +29,7 @@ namespace Treasure_Searcher
                 y = r.Next(areaSize);
             } while (move_ok(x, y) == true);
             image = Properties.Resources.mini_sunduk;
-        }
+        } 
         bool move_ok(int x, int y)
         {
             for (int i = 0; i < 4; i++)
@@ -45,6 +46,7 @@ namespace Treasure_Searcher
                 if (wall[i].x == x && wall[i].y == y)
                     return true;
             return false;
-        }
+        } */
+        #endregion
     }
 }

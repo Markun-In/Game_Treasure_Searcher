@@ -18,25 +18,14 @@ namespace Treasure_Searcher
             this.y = y;
             image = Properties.Resources.Mon_down;
         }
-        public Monster()
-        {
-            Random r = new Random();
-            do
-            {
-                x = r.Next(areaSize);
-                y = r.Next(areaSize);
-            } while (move_ok(x, y) == true);
-            image = Properties.Resources.Mon_down;
-        }
 
-        bool move_ok(int x, int y)
+        private static bool Move_ok(int x, int y)
         {
             if (x == 6 && y == 6)
                 return true;
             for (int i = 0; i < 5; i++)
-                if (mon[i] != null)
-                    if (mon[i].x == x && mon[i].y == y)
-                        return true;
+                if (mon[i].x == x && mon[i].y == y && mon[i] != null)
+                    return true;
             if (man.x == x && man.y == y)
                 return true;
             for (int i = 0; i < sund.Length; i++)
@@ -44,9 +33,8 @@ namespace Treasure_Searcher
                     if (sund[i].x == x && sund[i].y == y)
                         return true;
             for (int n = 0; n < wall.Length; n++)
-                if (wall[n] != null)
-                    if (x == wall[n].x && y == wall[n].y)
-                        return true;
+                if (x == wall[n].x && y == wall[n].y && wall[n] != null)
+                    return true;
             if (x < 0 || y < 0 || x > 9 || y > 9)
                 return true;
             return false;
@@ -54,7 +42,7 @@ namespace Treasure_Searcher
         public void Left()
         {
             image = Properties.Resources.Mon_left;
-            if (move_ok(x - 1, y) == false)
+            if (Move_ok(x - 1, y) == false)
                 x--;
             if (man.x == x && man.y == y)
                 life--;
@@ -62,7 +50,7 @@ namespace Treasure_Searcher
         public void Right()
         {
             image = Properties.Resources.Mon_right;
-            if (move_ok(x + 1, y) == false)
+            if (Move_ok(x + 1, y) == false)
                 x++;
             if (man.x == x && man.y == y)
                 life--;
@@ -70,7 +58,7 @@ namespace Treasure_Searcher
         public void Down()
         {
             image = Properties.Resources.Mon_right;
-            if (move_ok(x, y + 1) == false)
+            if (Move_ok(x, y + 1) == false)
                 y++;
             if (man.x == x && man.y == y)
                 life--;
@@ -78,7 +66,7 @@ namespace Treasure_Searcher
         public void Up()
         {
             image = Properties.Resources.Mon_right;
-            if (move_ok(x, y - 1) == false)
+            if (Move_ok(x, y - 1) == false)
                 y--;
             if (man.x == x && man.y == y)
                 life--;
