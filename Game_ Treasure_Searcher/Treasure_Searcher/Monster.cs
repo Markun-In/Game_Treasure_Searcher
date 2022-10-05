@@ -23,31 +23,31 @@ namespace Treasure_Searcher
             Random r = new Random();
             do
             {
-                x = r.Next(Main.areasize);
-                y = r.Next(Main.areasize);
+                x = r.Next(areaSize);
+                y = r.Next(areaSize);
             } while (move_ok(x, y) == true);
             image = Properties.Resources.Mon_down;
         }
 
-        bool move_ok(int a, int b)
+        bool move_ok(int x, int y)
         {
-            if (a == 6 && b == 6)
+            if (x == 6 && y == 6)
                 return true;
             for (int i = 0; i < 5; i++)
                 if (mon[i] != null)
-                    if (mon[i].x == a && mon[i].y == b)
+                    if (mon[i].x == x && mon[i].y == y)
                         return true;
-            if (man.x == a && man.y == b)
+            if (man.x == x && man.y == y)
                 return true;
             for (int i = 0; i < sund.Length; i++)
                 if (sund[i] != null)
-                    if (sund[i].x == a && sund[i].y == b)
+                    if (sund[i].x == x && sund[i].y == y)
                         return true;
             for (int n = 0; n < wall.Length; n++)
                 if (wall[n] != null)
-                    if (a == wall[n].x && b == wall[n].y)
+                    if (x == wall[n].x && y == wall[n].y)
                         return true;
-            if (a < 0 || b < 0 || a > 9 || b > 9)
+            if (x < 0 || y < 0 || x > 9 || y > 9)
                 return true;
             return false;
         }

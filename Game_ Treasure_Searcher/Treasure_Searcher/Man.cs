@@ -12,10 +12,10 @@ namespace Treasure_Searcher
     {
         public int x, y;
         public Image image;
-        public Man(int i, int j)
+        public Man(int x, int y)
         {
-            x = i;
-            y = j;
+            this.x = x;
+            this.y = y;
             image = Properties.Resources.Down_1_;
         }
         public void Left()
@@ -43,7 +43,7 @@ namespace Treasure_Searcher
         public void Right()
         {
             image = Properties.Resources.Right_3_;
-            if (x < Main.areasize)
+            if (x < areaSize)
                 x++;
             for (int i = 0; i < wall.Length; i++)
                 if (x == wall[i].x && y == wall[i].y)
@@ -64,7 +64,7 @@ namespace Treasure_Searcher
         public void Down()
         {
             image = Properties.Resources.Down_1_;
-            if (y < Main.areasize)
+            if (y < areaSize)
                 y++;
             for (int i = 0; i < wall.Length; i++)
                 if (x == wall[i].x && y == wall[i].y)

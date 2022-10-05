@@ -34,26 +34,26 @@ namespace Treasure_Searcher
 
                 using (StreamWriter sw = new StreamWriter(textBox1.Text + ".txt")) 
                 {
-                    sw.WriteLine(Main.man.x);
-                    sw.WriteLine(Main.man.y);
+                    sw.WriteLine(man.x);
+                    sw.WriteLine(man.y);
                     for (int i = 0; i < 5; i++)
-                        sw.WriteLine(Main.mon[i].x);
+                        sw.WriteLine(mon[i].x);
                     for (int i = 0; i < 5; i++)
-                        sw.WriteLine(Main.mon[i].y);
-                    for (int i = 0; i <= Main.wall.Length - 1; i++)
-                        sw.WriteLine(Main.wall[i].x);
-                    for (int i = 0; i <= Main.wall.Length - 1; i++)
-                        sw.WriteLine(Main.wall[i].y);
-                    sw.WriteLine(Main.Minisund);
-                    sw.WriteLine(Main.life);
+                        sw.WriteLine(mon[i].y);
+                    for (int i = 0; i <= wall.Length - 1; i++)
+                        sw.WriteLine(wall[i].x);
+                    for (int i = 0; i <= wall.Length - 1; i++)
+                        sw.WriteLine(wall[i].y);
+                    sw.WriteLine(Minisund);
+                    sw.WriteLine(life);
                     for (int i = 0; i <  4; i++) { 
-                        if (Main.sund[i] != null)
+                        if (sund[i] != null)
                         {
-                            sw.WriteLine(Main.sund[i].x);
-                            sw.WriteLine(Main.sund[i].y);
+                            sw.WriteLine(sund[i].x);
+                            sw.WriteLine(sund[i].y);
                         }
                     }
-                    sw.WriteLine(Main.level);
+                    sw.WriteLine(level);
                 }
             }
              
@@ -72,32 +72,32 @@ namespace Treasure_Searcher
 
                 using (StreamReader sr = new StreamReader(textBox1.Text + ".txt")) 
                 {
-                    Main.man.x = Convert.ToInt32(sr.ReadLine()); 
-                    Main.man.y = Convert.ToInt32(sr.ReadLine());
+                    man.x = Convert.ToInt32(sr.ReadLine()); 
+                    man.y = Convert.ToInt32(sr.ReadLine());
 
                     for (int i = 0; i < 5; i++)
-                        Main.mon[i].x = Convert.ToInt32(sr.ReadLine());
+                        mon[i].x = Convert.ToInt32(sr.ReadLine());
                     for (int i = 0; i < 5; i++)
-                        Main.mon[i].y = Convert.ToInt32(sr.ReadLine());
-                    for (int i = 0; i <= Main.wall.Length - 1; i++)
-                        Main.wall[i].x = Convert.ToInt32(sr.ReadLine());
-                    for (int i = 0; i <= Main.wall.Length - 1; i++)  
-                        Main.wall[i].y = Convert.ToInt32(sr.ReadLine());
+                        mon[i].y = Convert.ToInt32(sr.ReadLine());
+                    for (int i = 0; i <= wall.Length - 1; i++)
+                        wall[i].x = Convert.ToInt32(sr.ReadLine());
+                    for (int i = 0; i <= wall.Length - 1; i++)  
+                        wall[i].y = Convert.ToInt32(sr.ReadLine());
 
-                    Main.Minisund = Convert.ToInt32(sr.ReadLine());
-                    Main.life = Convert.ToInt32(sr.ReadLine());
-                    Main.sund = new Main.Sunduk[Minisund];
+                    Minisund = Convert.ToInt32(sr.ReadLine());
+                    life = Convert.ToInt32(sr.ReadLine());
+                    sund = new Sunduk[Minisund];
 
-                    for (int i = 0; i < Main.Minisund; i++)
-                        Main.sund[i] = new Main.Sunduk(0 ,0);
+                    for (int i = 0; i < Minisund; i++)
+                        sund[i] = new Sunduk(0 ,0);
                     
                     for (int i = 0; i < Minisund; i++)
-                        if (Main.sund[i] != null)
+                        if (sund[i] != null)
                         {
-                            Main.sund[i].x = Convert.ToInt32(sr.ReadLine());
-                            Main.sund[i].y = Convert.ToInt32(sr.ReadLine());
+                            sund[i].x = Convert.ToInt32(sr.ReadLine());
+                            sund[i].y = Convert.ToInt32(sr.ReadLine());
                         }
-                    Main.level = Convert.ToInt32(sr.ReadLine());
+                    level = Convert.ToInt32(sr.ReadLine());
                 }
             }
             Close();

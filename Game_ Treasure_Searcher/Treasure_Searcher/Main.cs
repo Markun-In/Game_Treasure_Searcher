@@ -14,50 +14,50 @@ namespace Treasure_Searcher
 {
     public partial class Main : Form
     {
-        public static int areasize = 12;
+        public static int areaSize = 12;
         public static int blockSize = 70;
         public static Man man;
         public static Monster[] mon;
-        public static Sunduk [] sund;
-        public static Wall [] wall;
+        public static Sunduk[] sund;
+        public static Wall[] wall;
         public static int life = 3;
         public static int Minisund;
         public static Timer timer1;
         public static int home_enamble = 0;
-        public static System.Windows.Forms.Label label6;
+        public static Label label6;
         public static int level = 1;
         public static Timer timer4;
 
         public Main()
         {
-            MaximizeBox = false; 
             InitializeComponent();
-            label6 = new System.Windows.Forms.Label();
-            this.panel2.Controls.Add(label6);
+            label6 = new Label();
+            panel2.Controls.Add(label6);
             label6.AutoSize = true;
-            label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            label6.Location = new System.Drawing.Point(442, 2);
-            label6.Name = "label6";
-            label6.Size = new System.Drawing.Size(24, 25);
+            label6.Font = new Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            label6.Location = new Point(442, 2);
+            label6.Name = "home_enable";
+            label6.Size = new Size(24, 25);
             label6.TabIndex = 0;
             panel3.Location = new Point(0, 0);
             panel2.Location = new Point(0, 0);
             panel3.Visible = true;
-            timer1 = new Timer();
             timer4 = new Timer();
             timer4.Interval = 1000;
             timer4.Enabled = false;
+            timer4.Tick += timer4_Tick;
+            timer1 = new Timer();
             timer1.Interval = 350;
             timer1.Enabled = false;
             timer1.Tick += timer1_Tick;
-            timer4.Tick += timer4_Tick;
             panel1.Location = new Point(0, 34);
+            MaximizeBox = false;
         }
         
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             e.Graphics.DrawImage(man.image, man.x * blockSize, man.y * blockSize, blockSize, blockSize);
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < mon.Length; i++)
                 e.Graphics.DrawImage(mon[i].image, mon[i].x * blockSize, mon[i].y * blockSize, blockSize, blockSize);
             for (int i = 0; i < sund.Length; i++)
                 if (sund[i] != null)
@@ -81,93 +81,11 @@ namespace Treasure_Searcher
             if (Minisund >= 2)
                 e.Graphics.DrawImage(Properties.Resources.mini_sunduk, 810, 2, 30, 30);
             if (Minisund >= 3)
-                e.Graphics.DrawImage(Properties.Resources.mini_sunduk, 770, 2, 30, 30);
+                e.Graphics.DrawImage(Properties.Resources.mini_sunduk, 770, 2, 30, 30); 
             if (Minisund >= 4)
                 e.Graphics.DrawImage(Properties.Resources.mini_sunduk, 730, 2, 30, 30);
         }
         
-        
-        public class Wall
-        {
-            public Image image;
-            public int x, y;
-            public Wall(int a, int b)
-            {
-                x = a;
-                y = b;
-                image = Properties.Resources.hgrtfdtetrd;
-            }   
-
-            public Wall()
-            {
-                Random r = new Random();
-                do
-                {
-                    x = r.Next(Main.areasize);
-                    y = r.Next(Main.areasize);
-                } while (move_ok(x, y) == true);
-                image = Properties.Resources.hgrtfdtetrd;
-            }
-
-            bool move_ok(int n, int h)
-            {
-                for (int i = 0; i < sund.Length; i++)
-                    if (sund[i] != null)
-                        if (sund[i].x == n && sund[i].y == h)
-                            return true;
-                if (man.x == n && man.y == h)
-                    return true;
-                for (int i = 0; i < 5; i++)
-                    if(mon[i] != null) 
-                        if (mon[i].x == n && mon[i].y == h) 
-                            return true;
-                for (int i = 0; i < wall.Length; i++) 
-                    if(wall[i] != null) 
-                        if (wall[i].x == n && wall[i].y == h) 
-                            return true;
-                return false;
-            }
-        }
-        public class Sunduk
-        {
-            public Image image;
-            public int x, y;
-            public Sunduk(int a, int b)
-            {
-                x = a;
-                y = b;
-                image = Properties.Resources.mini_sunduk;
-            }
-
-            public Sunduk()
-            {
-                Random r = new Random();
-                do
-                {
-                    x = r.Next(Main.areasize);
-                    y = r.Next(Main.areasize);
-                } while(move_ok(x,y) == true);
-                image = Properties.Resources.mini_sunduk;
-            }
-            bool move_ok(int n, int h)
-              {
-                  for (int i = 0; i < 4; i++) 
-                      if (sund[i] != null)
-                          if (sund[i].x == n && sund[i].y == h)
-                              return true;
-                  if (man.x == n && man.y == h)
-                      return true;
-                  for (int i = 0; i < 5; i++)
-                      if (mon[i] != null)
-                          if (mon[i].x == n && mon[i].y == h)
-                              return true;
-                  for (int i = 1; i < 10; i++) 
-                      if (wall[i].x == n && wall[i].y == h) 
-                          return true;
-                  return false;
-              }
-        }
-
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Escape)
@@ -225,7 +143,6 @@ namespace Treasure_Searcher
             {
                 life++; 
                 home_enamble = 0;
-                label6.Text = home_enamble.ToString();
             }
         }
         private void timer1_Tick(object sender, EventArgs e)
@@ -236,22 +153,10 @@ namespace Treasure_Searcher
                 timer4.Enabled = false;
                 MessageBox.Show("Вы проиграли!");
             }
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < mon.Length; i++)
                 mon[i].Mon_move();
             panel1.Refresh();
             panel2.Refresh();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            panel3.Visible = false;
-            timer1.Enabled = true;
-            timer4.Enabled = true;
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -264,14 +169,14 @@ namespace Treasure_Searcher
 
         private void label2_Click_1(object sender, EventArgs e)
         {
-            Save s = new Save("Сохранение", "Под каким профилем сохранить?", "Сохранить");
-            s.ShowDialog();
+            Save save = new Save("Сохранение", "Под каким профилем сохранить?", "Сохранить");
+            save.ShowDialog();
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Save s = new Save("Загрузка", "Какой профиль загрузить?", "Загрузить");
-            s.ShowDialog();
+            Save load = new Save("Загрузка", "Какой профиль загрузить?", "Загрузить");
+            load.ShowDialog();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -295,6 +200,5 @@ namespace Treasure_Searcher
             label5.Visible = false;
             label2.Enabled = true;
         }
-
     }
 }

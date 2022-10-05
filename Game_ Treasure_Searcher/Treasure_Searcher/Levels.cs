@@ -131,6 +131,8 @@ namespace Treasure_Searcher
             wall[21] = new Wall(6, 12);
             wall[22] = new Wall(4, 10);
         }
+
+        #region RandLevel
         void RandLevel()
         {
             man = new Man(6, 6);
@@ -144,6 +146,8 @@ namespace Treasure_Searcher
             for (int i = 0; i < 4; i++)
                 sund[i] = new Sunduk();
         }
+        #endregion
+
         public static void Next_level()
         {
             if (level == 4)
@@ -151,7 +155,6 @@ namespace Treasure_Searcher
                 timer1.Enabled = false;
                 timer4.Enabled = false;
                 MessageBox.Show("Вы выйграли!");
-                return;
             }
             else
             {
