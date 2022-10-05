@@ -14,19 +14,19 @@ namespace Treasure_Searcher
 {
     public partial class Main : Form
     {
-        static public int areasize = 12;
-        static public int blockSize = 70;
-        static public Man man; 
-        static public Monster[] mon;
-        static public Sunduk [] sund;
-        static public Wall [] wall;
-        static public int life = 3;
-        static public int Minisund;
-        static public Timer timer1;
-        static public int home_enamble = 0;
-        static public System.Windows.Forms.Label label6;
-        static public int level = 1;
-        static public Timer timer4;
+        public static int areasize = 12;
+        public static int blockSize = 70;
+        public static Man man;
+        public static Monster[] mon;
+        public static Sunduk [] sund;
+        public static Wall [] wall;
+        public static int life = 3;
+        public static int Minisund;
+        public static Timer timer1;
+        public static int home_enamble = 0;
+        public static System.Windows.Forms.Label label6;
+        public static int level = 1;
+        public static Timer timer4;
 
         public Main()
         {
@@ -85,192 +85,8 @@ namespace Treasure_Searcher
             if (Minisund >= 4)
                 e.Graphics.DrawImage(Properties.Resources.mini_sunduk, 730, 2, 30, 30);
         }
-        public class Man
-        {
-            public int x, y;
-            public Image image;
-            public Man(int i, int j)
-            {
-                x = i;
-                y = j;
-                image = Properties.Resources.Down_1_;
-            }
-            public void Left()
-            {
-                image = Properties.Resources.Left_2_;
-                if (x > 0)
-                    x--;
-                for (int i = 0; i < wall.Length; i++)
-                    if (x == wall[i].x && y == wall[i].y)
-                        x++;
-                for (int i = 0; i < mon.Length; i++)
-                    if (mon[i] != null) 
-                        if (x == mon[i].x && y == mon[i].y) 
-                            life--;
-                for (int i = 0; i < sund.Length; i++)
-                    if (sund[i] != null)
-                        if (x == sund[i].x && y == sund[i].y)
-                        {
-                            sund[i] = null;
-                            Minisund--;
-                            if (Minisund == 0) 
-                                Levels.Next_level();
-                        }
-            }
-            public void Right()
-            {
-                image = Properties.Resources.Right_3_;
-                if (x < Main.areasize)
-                    x++;
-                for (int i = 0; i < wall.Length; i++)
-                    if (x == wall[i].x && y == wall[i].y)
-                        x--;
-                for (int i = 0; i < 5; i++)
-                    if (x == mon[i].x && y == mon[i].y)
-                        life--;
-                for (int i = 0; i < sund.Length; i++)
-                    if (sund[i] != null) 
-                        if (x == sund[i].x && y == sund[i].y) 
-                        { 
-                            sund[i] = null; 
-                            Minisund--; 
-                            if (Minisund == 0)
-                                Levels.Next_level();
-                        }
-            }
-            public void Down()
-            {
-                image = Properties.Resources.Down_1_;
-                if (y < Main.areasize)
-                    y++;
-                for (int i = 0; i < wall.Length; i++)
-                    if (x == wall[i].x && y == wall[i].y)
-                        y--; 
-                for (int i = 0; i < 5; i++)
-                    if (x == mon[i].x && y == mon[i].y)
-                        life--;
-                for (int i = 0; i < sund.Length; i++)
-                    if (sund[i] != null) 
-                        if (x == sund[i].x && y == sund[i].y) 
-                        { 
-                            sund[i] = null; 
-                            Minisund--; 
-                            if (Minisund == 0)
-                                Levels.Next_level();
-                        }
-            }
-            public void Up()
-            {
-                image = Properties.Resources.Up_4_;
-                if (y > 0)
-                    y--;
-                for (int i = 0; i < wall.Length; i++)
-                    if (x == wall[i].x && y == wall[i].y) 
-                        y++;
-                for (int i = 0; i < 5; i++)
-                    if (mon[i] != null) 
-                        if (x == mon[i].x && y == mon[i].y) 
-                            life--;
-                for (int i = 0; i < sund.Length; i++)
-                   if (sund[i] != null) 
-                       if (x == sund[i].x && y == sund[i].y) 
-                       { 
-                           sund[i] = null; 
-                           Minisund--; 
-                           if (Minisund == 0) 
-                               Levels.Next_level();
-                       }
-            }
-        }
-        public class Monster
-        {
-            public Image image;
-            public int x, y;
-            public Monster(int a, int b)
-            {
-                x = a;
-                y = b;
-                image = Properties.Resources.Mon_down;
-            }
-            public Monster()
-            {
-                Random r = new Random();
-                do
-                {
-                    x = r.Next(Main.areasize);
-                    y = r.Next(Main.areasize);
-                } while(move_ok(x,y) == true);
-                image = Properties.Resources.Mon_down;
-            }
-
-            bool move_ok(int a, int b)
-            {
-                if (a == 6 && b == 6)
-                    return true;
-                for (int i = 0; i < 5; i++)
-                    if (mon[i] != null)
-                        if (mon[i].x == a && mon[i].y == b)
-                            return true;
-                if (man.x == a && man.y == b)
-                    return true;
-                for (int i = 0; i < sund.Length; i++)
-                    if (sund[i] != null)
-                        if (sund[i].x == a && sund[i].y == b)
-                            return true;
-                for (int n = 0; n < wall.Length; n++)
-                    if (wall[n] != null)
-                        if (a == wall[n].x && b == wall[n].y)
-                            return true;
-                if (a < 0 || b < 0 || a > 9 || b > 9)
-                    return true;
-                return false;
-            }
-            public void Left()
-            {
-                image = Properties.Resources.Mon_left;
-                if (move_ok(x - 1, y) == false)
-                    x--;
-                if (man.x == x && man.y == y)
-                    life--;
-            }
-            public void Right()
-            {
-                image = Properties.Resources.Mon_right;
-                if (move_ok(x + 1, y) == false)
-                    x++;
-                if (man.x == x && man.y == y)
-                    life--;
-            }
-            public void Down()
-            {
-                image = Properties.Resources.Mon_right;
-                if (move_ok(x, y+1) == false)
-                    y++;
-                if (man.x == x && man.y == y)
-                    life--;
-            }
-            public void Up()
-            {
-                image = Properties.Resources.Mon_right;
-                if (move_ok(x, y - 1) == false)
-                    y--;
-                if (man.x == x && man.y == y)
-                    life--;
-            }
-            public void Mon_move()
-            {
-                Random r = new Random();
-                int c = r.Next(x * 2 + y * 3 + x + 8 + y) % 4;
-                if (c == 0)
-                    Right();
-                if (c == 1)
-                    Left();
-                if (c == 2)
-                    Up();
-                if (c == 3)
-                    Down();
-            }
-        }
+        
+        
         public class Wall
         {
             public Image image;
