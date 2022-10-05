@@ -144,7 +144,7 @@ namespace Treasure_Searcher
             for (int i = 0; i < 4; i++)
                 sund[i] = new Sunduk();
         }
-        static public void Next_level()
+        public static void Next_level()
         {
             if (level == 4)
             {
