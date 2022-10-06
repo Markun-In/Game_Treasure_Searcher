@@ -1,0 +1,101 @@
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+Y:\Программисты\3 курс\Бочаров Григорий\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\User7\Desktop\Инюшкин Марк\WindowsFormsApplication7\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+C:\Users\User7\Desktop\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+Y:\Программисты\3 курс\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csprojResolveAssemblyReference.cache
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
+D:\Компьютерные курсы\Работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.Cache
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Инюшкин Марк\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\ВБ\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher — копия\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+E:\Learn\Учёба\Личные работы\Работы в портфолио\Game_ Treasure_Searcher\Копия\Game_ Treasure_Searcher\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe.config
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.exe
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\bin\Debug\WindowsFormsApplication7.pdb
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.AssemblyReference.cache
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Form1.resources
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Properties.Resources.resources
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.Save.resources
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.GenerateResource.cache
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.csproj.CoreCompileInputs.cache
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.exe
+E:\Учёба\Работы в портфолио\Game_ Treasure_Hunter\WindowsFormsApplication7\obj\Debug\WindowsFormsApplication7.pdb
