@@ -184,8 +184,6 @@ namespace Treasure_Searcher
             DialogResult result1 = MessageBox.Show("Вы действительно хотите выйти ?", "Внимание", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
             if (result1 == DialogResult.Yes)
                 Close();
-            else
-                return;
         }
 
         private void label5_Click(object sender, EventArgs e) // Нажатие на кнопку "Новая игра"
