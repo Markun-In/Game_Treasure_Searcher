@@ -90,7 +90,6 @@ namespace Treasure_Searcher
             wall[21] = new Wall(10, 6);
             wall[22] = new Wall(11, 6);
         }
-
         public static void Level3()
         {
             Minisund = 4;
